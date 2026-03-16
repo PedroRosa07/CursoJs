@@ -15,10 +15,10 @@ nav ul{
 }
 
 nav ul li a{
-    text-decoration: none;
-    color: white;
-    cursor: default;
-    pointer-events: none;
+   text-decoration: none;
+   color: white;
+   cursor: default;
+   pointer-events: none;
 }
 
 /* IMAGEM DO BANNER */
