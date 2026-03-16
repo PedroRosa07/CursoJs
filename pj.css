@@ -1,0 +1,131 @@
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+    pointer-events: none;
+}
+
+/* IMAGEM DO BANNER */
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* TÍTULO */
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* CONTAINER DOS CARDS */
+
+#DVP{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+/* CARD */
+
+.card{
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* IMAGEM DO CARD */
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* TEXTO */
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+/* FORMULÁRIO */
+
+#Cad{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+/* INPUTS */
+
+input{
+    padding: 10px;
+}
+
+/* BOTÃO */
+
+button{
+    padding: 10px;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FUNDO DA PÁGINA */
+
+body{
+    background-color: rgb(238,234,230);
+    margin: 0;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 50px 30px;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: white;
+    margin: 0;
+}
+#Logo{
+    height: 120px;
+    width: 120px;
+}
