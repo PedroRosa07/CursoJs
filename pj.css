@@ -55,6 +55,12 @@ nav ul li a:hover{
 .listadrop a:hover{
     background-color: red;
 }
+
+nav ul li{
+    color: white;
+    cursor: pointer;
+}
+
 /* IMAGEM DO BANNER */
 
 img{
