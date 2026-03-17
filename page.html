@@ -17,11 +17,21 @@
 <nav id="Menu">
 <ul>
 <li><a href="#" onclick = "return false">Home</a></li>
-<li><a href="#" onclick = "return false">Produtos</a></li>
+<div class="menudrop">
+<li><a href="#" onclick = "return false" class="dropprod">Produtos</a>
+<div class="listadrop">
+    <a href="#">camisas</a>
+    <a href="#">camisetas</a>
+    <a href="#">bermuda</a>
+    <a href="#">chuteira</a>
+</li>
+</div>
+
 <li><a href="#" onclick = "return false">Sobre</a></li>
 <li><a href="#" onclick = "return false">Contato</a></li>
 
 </ul>
+</li>
 </nav>
 
 </header>
@@ -70,8 +80,8 @@
 <label for="telefone">Telefone</label>
 <input type="number" name="telefone" id="telefone" placeholder="Digite seu número (com ddd)">
 
-<label for="duvidas">Digite suas Ddúvidas</label>
-<input type="duvidas" name="Dúvidas" id="duvidas" placeholder="Digite suas Dúvidas">
+<label for="duvidas">Digite suas dúvidas</label>
+<input type="duvidas" name="Dúvidas" id="duvidas" placeholder="Digite suas dúvidas">
 
 
 <button  type="submit">Enviar</button>

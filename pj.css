@@ -17,10 +17,44 @@ nav ul{
 nav ul li a{
    text-decoration: none;
    color: white;
-   cursor: default;
-   pointer-events: none;
+   padding: 8px 16px;
+   border-radius: 5px;
+   transition: 1s;
 }
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    filter: brightness(1.0);
+    transform: scale(1.1);
 
+}
+.menudrop{
+    position: relative;
+    display: inline-block;
+}
+.listadrop{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-height: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+.menudrop:hover .listadrop{
+    display: block;
+}
+.listadrop a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+.listadrop a:hover{
+    background-color: red;
+}
 /* IMAGEM DO BANNER */
 
 img{
